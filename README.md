@@ -1,6 +1,10 @@
 # safe-at
 
-A safe version of `.at`
+A safe version of `.at` [#fix_ecmascript_at](https://twitter.com/hashtag/fix_ecmascript_at)
+
+See [this TC39 discource topic](https://es.discourse.group/t/fix-at/983)
+
+---
 
 Native `.at` method is very harmful:
 
@@ -22,8 +26,29 @@ console.log(safeAt(arr, NaN)); // => undefined
 console.log(safeAt(arr, 1.5)); // => undefined
 ```
 
-# Install
+## Install
 
 ```console
 npm install safe-at
+```
+
+## Import
+
+### Node.js
+
+```js
+// ES Modules
+import safeAt from "safe-at";
+```
+
+```js
+// CommonJS
+const safeAt = require("safe-at");
+```
+
+### Deno
+
+```js
+// ES Modules
+import safeAt from "https://deno.land/x/safe_at/mod.ts";
 ```
