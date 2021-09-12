@@ -1,6 +1,6 @@
 {
   "name": "safe-at",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A safe version of .at",
   "main": "./src/index.cjs",
   "module": "./src/index.mjs",
