@@ -1,4 +1,3 @@
-
 /** @see https://tc39.es/ecma262/#sec-toobject */
 function ToObject(target) {
   if (target == null) {
