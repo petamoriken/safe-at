@@ -1,0 +1,31 @@
+{
+  "name": "safe-at",
+  "version": "0.0.0",
+  "description": "A safe version of .at",
+  "main": "./src/index.cjs",
+  "module": "./src/index.mjs",
+  "exports": {
+    "require": "./src/index.cjs",
+    "import": "./src/index.mjs"
+  },
+  "types": "index.d.ts",
+  "sideEffects": false,
+  "author": "Kenta Moriuchi <moriken@kimamass.com> (https://moriken.dev)",
+  "bugs": {
+    "url": "https://github.com/petamoriken/safe-at/issues"
+  },
+  "homepage": "https://github.com/petamoriken/safe-at.git",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/petamoriken/safe-at.git"
+  },
+  "files": [
+    "src",
+    "index.d.ts"
+  ],
+  "keywords": [
+    "at",
+    "safe"
+  ]
+}
