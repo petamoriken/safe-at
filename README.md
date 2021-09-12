@@ -49,6 +49,5 @@ const safeAt = require("safe-at");
 ### Deno
 
 ```js
-// ES Modules
 import safeAt from "https://deno.land/x/safe_at/mod.ts";
 ```

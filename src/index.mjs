@@ -47,7 +47,7 @@ export default function safeAt(target, index) {
 
   const relativeIndex = Number(index);
   if (!Number.isSafeInteger(relativeIndex)) {
-    return undefined;
+    return;
   }
 
   let k;
@@ -58,7 +58,7 @@ export default function safeAt(target, index) {
   }
 
   if (k < 0 || k >= len) {
-    return undefined;
+    return;
   }
 
   return O[k];
