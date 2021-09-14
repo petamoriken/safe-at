@@ -19,14 +19,6 @@ function ToIntegerOrInfinity(target) {
     return 0;
   }
 
-  if (number === Infinity) {
-    return Infinity;
-  }
-
-  if (number === -Infinity) {
-    return -Infinity;
-  }
-
   return Math.trunc(number);
 }
 
