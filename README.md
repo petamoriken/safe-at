@@ -2,7 +2,7 @@
 
 A safe version of `.at` [#fix_ecmascript_at](https://twitter.com/hashtag/fix_ecmascript_at)
 
-See [this TC39 discource topic](https://es.discourse.group/t/fix-at/983)
+See [this TC39 discourse topic](https://es.discourse.group/t/fix-at/983)
 
 ---
 
